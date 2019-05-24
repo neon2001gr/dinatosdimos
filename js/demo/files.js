@@ -50,6 +50,11 @@ var nisi_apotelesmata_topika 	= [	{ y: 243, label: "1ο Σαλαμίνας" },
 											{ y: 243, label: "Αιαντείου" },
 											{ y: 273, label: "Αμπελακίων" },
 											{ y: 269, label: "Σελήνια" }]
+var konta_apotelesmata_topika 	= [	{ y: 243, label: "1ο Σαλαμίνας" },
+											{ y: 236, label: "2ο Σαλαμίνας" },
+											{ y: 243, label: "Αιαντείου" },
+											{ y: 273, label: "Αμπελακίων" },
+											{ y: 269, label: "Σελήνια" }]
 var protovoulia_apotelesmata_topika 	= [	{ y: 243, label: "1ο Σαλαμίνας" },
 											{ y: 236, label: "2ο Σαλαμίνας" },
 											{ y: 243, label: "Αιαντείου" },
