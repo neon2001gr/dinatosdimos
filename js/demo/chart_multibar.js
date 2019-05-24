@@ -1,4 +1,4 @@
-var chart = new CanvasJS.Chart("chartContainer", {
+var chartDimotika = new CanvasJS.Chart("chartDimotika", {
 	animationEnabled: true,
 	title:{
 		//text: "Συγκεντρωτικά Στοιχεία"
@@ -61,7 +61,78 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		]
 	}]
 });
-chart.render();
+
+
+var chartTopika = new CanvasJS.Chart("chartTopika", {
+	animationEnabled: true,
+	title:{
+		//text: "Συγκεντρωτικά Στοιχεία"
+	},
+	axisY: {
+		//title: "Medals"
+	},
+	legend: {
+		cursor:"pointer",
+		itemclick : toggleDataSeries
+	},
+	toolTip: {
+		shared: true,
+		content: toolTipFormatter
+	},
+	data: [{
+		type: "bar",
+		showInLegend: true,
+		name: "Δυνατός Δήμος",
+		color: "blue",
+		dataPoints: dinatosdimos_apotelesmata
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Silver",
+		color: "silver",
+		dataPoints: [
+			{ y: 243, label: "1ο Σαλαμίνας" },
+			{ y: 236, label: "2ο Σαλαμίνας" },
+			{ y: 243, label: "Αιαντείου" },
+			{ y: 273, label: "Αμπελακίων" },
+			{ y: 269, label: "Σελήνια" }
+		]
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "asd",
+		color: "red",
+		dataPoints: [
+			{ y: 243, label: "1ο Σαλαμίνας" },
+			{ y: 236, label: "2ο Σαλαμίνας" },
+			{ y: 243, label: "Αιαντείου" },
+			{ y: 273, label: "Αμπελακίων" },
+			{ y: 269, label: "Σελήνια" }
+		]
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Bronze",
+		color: "#A57164",
+		dataPoints: [
+			{ y: 243, label: "1ο Σαλαμίνας" },
+			{ y: 236, label: "2ο Σαλαμίνας" },
+			{ y: 243, label: "Αιαντείου" },
+			{ y: 273, label: "Αμπελακίων" },
+			{ y: 269, label: "Σελήνια" }
+		]
+	}]
+});
+
+
+chartDimotika.render();
+chartTopika.render();
+
+
+
 
 function toolTipFormatter(e) {
 	var str = "";
