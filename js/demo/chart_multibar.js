@@ -67,7 +67,7 @@ var vima_apotelesmata_topika 			= [	{ y: vima['koinwtika']['sal_1o'], label: "1�
 											{ y: vima['koinwtika']['aianteio'], label: "Αιαντείου" },
 											{ y: vima['koinwtika']['ampelakia'], label: "Αμπελακίων" },
 											{ y: vima['koinwtika']['selinia'], label: "Σελήνια" }];
-var laiki_apotelesmata_topika 			= [	  y: laiki['koinwtika']['sal_1o'], label: "1ο Σαλαμίνας" },
+var laiki_apotelesmata_topika 			= [	{ y: laiki['koinwtika']['sal_1o'], label: "1ο Σαλαμίνας" },
 											{ y: laiki['koinwtika']['sal_2o'], label: "2ο Σαλαμίνας" },
 											{ y: laiki['koinwtika']['aianteio'], label: "Αιαντείου" },
 											{ y: laiki['koinwtika']['ampelakia'], label: "Αμπελακίων" },
