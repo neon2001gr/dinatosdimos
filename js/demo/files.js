@@ -2,7 +2,7 @@
 var date_time = "12:00";
 var enswmatwsi = 10;
 var pososta = [10, 33, 44, 55, 77, 55,99] 
-var pososta_ana_eklogiko = [[42, 53, 62, 500, 98, 14], [42, 53, 62, 500, 98, 14]];
+var pososta_ana_eklogiko = [42, 53, 62, 500, 98, 14];
 
 
 
