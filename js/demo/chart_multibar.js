@@ -47,7 +47,7 @@ var chartDimotika = new CanvasJS.Chart("chartDimotika", {
 		showInLegend: true,
 		name: "Ανασυγκρότηση Σαλαμίνας",
 		color: "red",
-		dataPoints: anaszgkrotisi_apotelesmata_dimotika
+		dataPoints: anasygkrotisi_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
@@ -116,7 +116,7 @@ var chartTopika = new CanvasJS.Chart("chartTopika", {
 		showInLegend: true,
 		name: "Ανασυγκρότηση Σαλαμίνας",
 		color: "red",
-		dataPoints: anaszgkrotisi_apotelesmata_topika
+		dataPoints: anasygkrotisi_apotelesmata_topika
 	},
 	{
 		type: "bar",
