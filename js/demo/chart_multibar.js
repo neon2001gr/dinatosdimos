@@ -1,10 +1,10 @@
 var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
 	title:{
-		text: "Συγκεντρωτικά Στοιχεία"
+		//text: "Συγκεντρωτικά Στοιχεία"
 	},
 	axisY: {
-		title: "Medals"
+		//title: "Medals"
 	},
 	legend: {
 		cursor:"pointer",
