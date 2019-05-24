@@ -43,6 +43,19 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	{
 		type: "bar",
 		showInLegend: true,
+		name: "asd",
+		color: "red",
+		dataPoints: [
+			{ y: 243, label: "1ο Σαλαμίνας" },
+			{ y: 236, label: "2ο Σαλαμίνας" },
+			{ y: 243, label: "Αιαντείου" },
+			{ y: 273, label: "Αμπελακίων" },
+			{ y: 269, label: "Σελήνια" }
+		]
+	},
+	{
+		type: "bar",
+		showInLegend: true,
 		name: "Bronze",
 		color: "#A57164",
 		dataPoints: [
