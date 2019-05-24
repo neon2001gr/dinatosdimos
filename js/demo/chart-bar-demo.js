@@ -12,7 +12,7 @@ var myLineChart = new Chart(ctx, {
       label: "Εκλογικά αποτελέσματα",
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
-      data: pososta_ana_eklogiko,
+      data: dynatos['dimotika'],
     }],
   },
   options: {
