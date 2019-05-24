@@ -19,44 +19,50 @@ var chartDimotika = new CanvasJS.Chart("chartDimotika", {
 		showInLegend: true,
 		name: "Δυνατός Δήμος",
 		color: "blue",
-		dataPoints: dinatosdimos_apotelesmata
+		dataPoints: dinatosdimos_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Το Νησί μας",
 		color: "silver",
-		dataPoints: nisi_apotelesmata
+		dataPoints: nisi_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Κοντά στον Δημότη",
 		color: "red",
-		dataPoints: konta_apotelesmata
+		dataPoints: konta_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Πρωτοβουλία Πολιτών",
 		color: "#A57164",
-		dataPoints: protovoulia_apotelesmata
+		dataPoints: protovoulia_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Ανασυγκρότηση Σαλαμίνας",
 		color: "red",
-		dataPoints: anaszgkrotisi_apotelesmata
+		dataPoints: anaszgkrotisi_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Βήμα στους Πολίτες",
 		color: "red",
-		dataPoints: vima_apotelesmata
+		dataPoints: vima_apotelesmata_dimotika
 	},
-	
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Λαική Συσπείρωση",
+		color: "red",
+		dataPoints: laiki_apotelesmata_dimotika
+	},
 	]
 });
 
@@ -82,43 +88,58 @@ var chartTopika = new CanvasJS.Chart("chartTopika", {
 		showInLegend: true,
 		name: "Δυνατός Δήμος",
 		color: "blue",
-		dataPoints: dinatosdimos_apotelesmata
+		dataPoints: dinatosdimos_apotelesmata_topika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Το Νησί μας",
 		color: "silver",
-		dataPoints: nisi_apotelesmata
+		dataPoints: nisi_apotelesmata_topika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Κοντά στον Δημότη",
 		color: "red",
-		dataPoints: konta_apotelesmata
+		dataPoints: konta_apotelesmata_topika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Πρωτοβουλία Πολιτών",
 		color: "#A57164",
-		dataPoints: protovoulia_apotelesmata
+		dataPoints: protovoulia_apotelesmata_topika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Ανασυγκρότηση Σαλαμίνας",
 		color: "red",
-		dataPoints: anaszgkrotisi_apotelesmata
+		dataPoints: anaszgkrotisi_apotelesmata_topika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Βήμα στους Πολίτες",
 		color: "red",
-		dataPoints: vima_apotelesmata
-	}]
+		dataPoints: vima_apotelesmata_topika
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Λαική Συσπείρωση",
+		color: "red",
+		dataPoints: laiki_apotelesmata_topika
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Τραυλός",
+		color: "red",
+		dataPoints: travlos_apotelesmata_topika
+	},
+	]
 });
 
 
