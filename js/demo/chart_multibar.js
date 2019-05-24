@@ -171,6 +171,7 @@ function toggleDataSeries(e) {
 	else {
 		e.dataSeries.visible = true;
 	}
-	chart.render();
+	chartDimotika.render();
+	chartTopika.render();;
 }
 
