@@ -24,42 +24,40 @@ var chartDimotika = new CanvasJS.Chart("chartDimotika", {
 	{
 		type: "bar",
 		showInLegend: true,
-		name: "Silver",
+		name: "Το Νησί μας",
 		color: "silver",
-		dataPoints: [
-			{ y: 243, label: "1ο Σαλαμίνας" },
-			{ y: 236, label: "2ο Σαλαμίνας" },
-			{ y: 243, label: "Αιαντείου" },
-			{ y: 273, label: "Αμπελακίων" },
-			{ y: 269, label: "Σελήνια" }
-		]
+		dataPoints: nisi_apotelesmata
 	},
 	{
 		type: "bar",
 		showInLegend: true,
-		name: "asd",
+		name: "Κοντά στον Δημότη",
 		color: "red",
-		dataPoints: [
-			{ y: 243, label: "1ο Σαλαμίνας" },
-			{ y: 236, label: "2ο Σαλαμίνας" },
-			{ y: 243, label: "Αιαντείου" },
-			{ y: 273, label: "Αμπελακίων" },
-			{ y: 269, label: "Σελήνια" }
-		]
+		dataPoints: konta_apotelesmata
 	},
 	{
 		type: "bar",
 		showInLegend: true,
-		name: "Bronze",
+		name: "Πρωτοβουλία Πολιτών",
 		color: "#A57164",
-		dataPoints: [
-			{ y: 243, label: "1ο Σαλαμίνας" },
-			{ y: 236, label: "2ο Σαλαμίνας" },
-			{ y: 243, label: "Αιαντείου" },
-			{ y: 273, label: "Αμπελακίων" },
-			{ y: 269, label: "Σελήνια" }
-		]
-	}]
+		dataPoints: protovoulia_apotelesmata
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Ανασυγκρότηση Σαλαμίνας",
+		color: "red",
+		dataPoints: anaszgkrotisi_apotelesmata
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Βήμα στους Πολίτες",
+		color: "red",
+		dataPoints: vima_apotelesmata
+	},
+	
+	]
 });
 
 
@@ -89,41 +87,37 @@ var chartTopika = new CanvasJS.Chart("chartTopika", {
 	{
 		type: "bar",
 		showInLegend: true,
-		name: "Silver",
+		name: "Το Νησί μας",
 		color: "silver",
-		dataPoints: [
-			{ y: 243, label: "1ο Σαλαμίνας" },
-			{ y: 236, label: "2ο Σαλαμίνας" },
-			{ y: 243, label: "Αιαντείου" },
-			{ y: 273, label: "Αμπελακίων" },
-			{ y: 269, label: "Σελήνια" }
-		]
+		dataPoints: nisi_apotelesmata
 	},
 	{
 		type: "bar",
 		showInLegend: true,
-		name: "asd",
+		name: "Κοντά στον Δημότη",
 		color: "red",
-		dataPoints: [
-			{ y: 243, label: "1ο Σαλαμίνας" },
-			{ y: 236, label: "2ο Σαλαμίνας" },
-			{ y: 243, label: "Αιαντείου" },
-			{ y: 273, label: "Αμπελακίων" },
-			{ y: 269, label: "Σελήνια" }
-		]
+		dataPoints: konta_apotelesmata
 	},
 	{
 		type: "bar",
 		showInLegend: true,
-		name: "Bronze",
+		name: "Πρωτοβουλία Πολιτών",
 		color: "#A57164",
-		dataPoints: [
-			{ y: 243, label: "1ο Σαλαμίνας" },
-			{ y: 236, label: "2ο Σαλαμίνας" },
-			{ y: 243, label: "Αιαντείου" },
-			{ y: 273, label: "Αμπελακίων" },
-			{ y: 269, label: "Σελήνια" }
-		]
+		dataPoints: protovoulia_apotelesmata
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Ανασυγκρότηση Σαλαμίνας",
+		color: "red",
+		dataPoints: anaszgkrotisi_apotelesmata
+	},
+	{
+		type: "bar",
+		showInLegend: true,
+		name: "Βήμα στους Πολίτες",
+		color: "red",
+		dataPoints: vima_apotelesmata
 	}]
 });
 
