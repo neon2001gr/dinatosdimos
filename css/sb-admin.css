@@ -6924,7 +6924,18 @@ a.close.disabled {
 .bg-konta {
   background-color: grey !important;
 }
-
+.bg-protovoulia {
+  background-color: green !important;
+}
+.bg-anasygkrotisi {
+  background-color: #00FFFF !important;
+}
+.bg-vima {
+  background-color: orange !important;
+}
+.bg-laiki {
+  background-color: red !important;
+}
 .bg-primary {
   background-color: blue !important;
 }
