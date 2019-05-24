@@ -25,35 +25,35 @@ var chartDimotika = new CanvasJS.Chart("chartDimotika", {
 		type: "bar",
 		showInLegend: true,
 		name: "Το Νησί μας",
-		color: "silver",
+		color: "yellow",
 		dataPoints: nisi_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Κοντά στον Δημότη",
-		color: "red",
+		color: "grey",
 		dataPoints: konta_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Πρωτοβουλία Πολιτών",
-		color: "#A57164",
+		color: "green",
 		dataPoints: protovoulia_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Ανασυγκρότηση Σαλαμίνας",
-		color: "red",
+		color: "#00FFFF",
 		dataPoints: anasygkrotisi_apotelesmata_dimotika
 	},
 	{
 		type: "bar",
 		showInLegend: true,
 		name: "Βήμα στους Πολίτες",
-		color: "red",
+		color: "orange",
 		dataPoints: vima_apotelesmata_dimotika
 	},
 	{
