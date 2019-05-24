@@ -19,9 +19,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		showInLegend: true,
 		name: "Δυνατός Δήμος",
 		color: "blue",
-		dataPoints: [
-			dinatosdimos_apotelesmata
-		]
+		dataPoints: dinatosdimos_apotelesmata
 	},
 	{
 		type: "bar",
