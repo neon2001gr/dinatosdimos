@@ -136,7 +136,7 @@ var chartTopika = new CanvasJS.Chart("chartTopika", {
 		type: "bar",
 		showInLegend: true,
 		name: "Τραυλός",
-		color: "red",
+		color: "#FF00FF",
 		dataPoints: travlos_apotelesmata_topika
 	},
 	]
