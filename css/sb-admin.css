@@ -6915,9 +6915,16 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
-  background-color: #007bff !important;
+.bg-dinatos {
+  background-color: blue !important;
 }
+.bg-nisi {
+  background-color: yellow !important;
+}
+.bg-konta {
+  background-color: grey !important;
+}
+
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
