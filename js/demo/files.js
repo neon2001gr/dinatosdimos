@@ -11,7 +11,7 @@ dynatos = {
 					'aianteio':200, 
 					'ampelakia':200, 
 					'selinia':200, 
-					  }
+					  },
 			'koinwtika':{
 					'sal_1o':200, 
 					'sal_2o':200, 
