@@ -77,7 +77,7 @@ var chartTopika = new CanvasJS.Chart("chartTopika", {
 	},
 	toolTip: {
 		shared: true,
-		content: toolTipFormatter
+		//content: toolTipFormatter
 	},
 	data: [{
 		type: "bar",
