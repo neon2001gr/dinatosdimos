@@ -1,4 +1,4 @@
-var date_time  = "19:58:49";
+var date_time  = "20:13:35";
 var enswmatwsi =  1.61;
 var dynatos = {'koinwtika': {'sal_2o': 0.0, 'sal_1o': 0.0, 'aianteio': 0.0, 'selinia': 0.0, 'ampelakia': 0.0}, 'dimotika': {'sal_2o': 0.0, 'sal_1o': 0.0, 'aianteio': 0.0, 'selinia': 0.0, 'ampelakia': 3.57}, 'synoliko': 3.57};
 var nisi = {'koinwtika': {'sal_2o': 0.0, 'sal_1o': 0.0, 'aianteio': 0.0, 'selinia': 0.0, 'ampelakia': 0.0}, 'dimotika': {'sal_2o': 0.0, 'sal_1o': 0.0, 'aianteio': 0.0, 'selinia': 0.0, 'ampelakia': 7.14}, 'synoliko': 7.14};
