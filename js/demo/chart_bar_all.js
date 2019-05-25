@@ -7,19 +7,19 @@ var ctx2 = document.getElementById("allChartsSummary");
 var myLineChart2 = new Chart(ctx2, {
   type: 'bar',
   data: {
-    labels: ["1ο Σαλαμίνας", "2ο Σαλαμίνας", "Αιαντείου", "Αμπελακείων", "Σελήνια"],
+    labels: ["Δυνατός ΔήμοςΔυνατός Δήμος", "Το νησί μας", "Κοντά στον Δημότη", "Πρωτοβουλία Πολιτών", "Ανασυγκρότηση Σαλαμίνας", "Βήμα στους Πολίτες", "Λαική Συσπείρωση"],
     datasets: [{
       label: "Εκλογικά αποτελέσματα",
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
-      data: [dynatos['dimotika']['sal_1o'],dynatos['dimotika']['sal_2o'], dynatos['dimotika']['aianteio'], dynatos['dimotika']['ampelakia'],dynatos['dimotika']['selinia']]
+      data: [dynatos['synoliko'],nisi['synoliko'],konta['synoliko'],protovoulia['synoliko'],anasygkrotisi['synoliko'],vima['synoliko'],laiki['synoliko'],]
     }],
   },
   options: {
     scales: {
       xAxes: [{
         time: {
-          unit: 'month'
+          unit: '%'
         },
         gridLines: {
           display: false
