@@ -3,8 +3,8 @@ Chart.defaults.global.defaultFontFamily = '-apple-system,system-ui,BlinkMacSyste
 Chart.defaults.global.defaultFontColor = '#292b2c';
 
 // Bar Chart Example
-var ctx = document.getElementById("allChartsSummary");
-var myLineChart = new Chart(ctx, {
+var ctx2 = document.getElementById("allChartsSummary");
+var myLineChart2 = new Chart(ctx2, {
   type: 'bar',
   data: {
     labels: ["1ο Σαλαμίνας", "2ο Σαλαμίνας", "Αιαντείου", "Αμπελακείων", "Σελήνια"],
