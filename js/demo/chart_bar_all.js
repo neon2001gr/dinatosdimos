@@ -9,7 +9,6 @@ var myLineChart2 = new Chart(ctx2, {
   data: {
     labels: ["Δυνατός Δήμος", "Το νησί μας", "Κοντά στον Δημότη", "Πρωτοβουλία Πολιτών", "Ανασυγκρότηση Σαλαμίνας", "Βήμα στους Πολίτες", "Λαική Συσπείρωση"],
     datasets: [{
-      label: "Εκλογικά αποτελέσματα",
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
       data: [dynatos['synoliko'],nisi['synoliko'],konta['synoliko'],protovoulia['synoliko'],anasygkrotisi['synoliko'],vima['synoliko'],laiki['synoliko'],]
