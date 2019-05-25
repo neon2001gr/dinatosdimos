@@ -7,11 +7,11 @@ var ctx2 = document.getElementById("allChartsSummary");
 var myLineChart2 = new Chart(ctx2, {
   type: 'bar',
   data: {
-    labels: ["Δυνατός Δήμος", "Το νησί μας", "Κοντά στον Δημότη", "Πρωτοβουλία Πολιτών", "Ανασυγκρότηση Σαλαμίνας", "Βήμα στους Πολίτες", "Λαική Συσπείρωση"],
+    labels: ["Δυνατός Δήμος", "Νησί", "Κοντά στον Δημότη", "Πρωτοβουλία Πολιτών", "Ανασυγκρότηση Σαλαμίνας", "Βήμα στους Πολίτες", "Λαική Συσπείρωση"],
     datasets: [{
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
-      data: [dynatos['synoliko'],nisi['synoliko'],konta['synoliko'],protovoulia['synoliko'],anasygkrotisi['synoliko'],vima['synoliko'],laiki['synoliko'],]
+      data: [dynatos['synoliko'],nisi['synoliko'],konta['synoliko'],protovoulia['synoliko'],anasygkrotisi['synoliko'],vima['synoliko'],laiki['synoliko']]
     }],
   },
   options: {
