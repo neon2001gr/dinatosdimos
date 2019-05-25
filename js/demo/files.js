@@ -1,6 +1,6 @@
-var date_time  = "17:26:17";
+var date_time  = "17:32:36";
 var enswmatwsi =  3.22580645161;
-var dynatos = {'koinwtika': {'sal_2o': 0, 'sal_1o': 0, 'aianteio': 0, 'selinia': 0.3295759527643586, 'ampelakia': 0.021739130434782608}, 'dimotika': {'sal_2o': 0, 'sal_1o': 0, 'aianteio': 0, 'selinia': 0.33482142857142855, 'ampelakia': 0.3597560975609756}, 'synoliko': 35.4796};
+var dynatos = {'koinwtika': {'sal_2o': 0.0, 'sal_1o': 0.0, 'aianteio': 0.0, 'selinia': 32.96, 'ampelakia': 2.17}, 'dimotika': {'sal_2o': 0.0, 'sal_1o': 0.0, 'aianteio': 0.0, 'selinia': 33.48, 'ampelakia': 35.98}, 'synoliko': 35.48};
 var nisi = {'koinwtika': {'sal_2o': 0, 'sal_1o': 0, 'aianteio': 0, 'selinia': 0.017713365539452495, 'ampelakia': 0.021739130434782608}, 'dimotika': {'sal_2o': 0, 'sal_1o': 0, 'aianteio': 0, 'selinia': 0.22321428571428573, 'ampelakia': 0.26496674057649666}, 'synoliko': 25.6661};
 var konta = {'koinwtika': {'sal_2o': 0, 'sal_1o': 0, 'aianteio': 0, 'selinia': 0.00644122383252818, 'ampelakia': 0.021739130434782608}, 'dimotika': {'sal_2o': 0, 'sal_1o': 0, 'aianteio': 0, 'selinia': 0.06696428571428571, 'ampelakia': 0.20787139689578715}, 'synoliko': 17.984};
 var protovoulia = {'koinwtika': {'sal_2o': 0, 'sal_1o': 0, 'aianteio': 0, 'selinia': 0.014492753623188406, 'ampelakia': 0.2391304347826087}, 'dimotika': {'sal_2o': 0, 'sal_1o': 0, 'aianteio': 0, 'selinia': 0.11160714285714286, 'ampelakia': 0.0958980044345898}, 'synoliko': 9.9023};
