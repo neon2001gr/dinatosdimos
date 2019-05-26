@@ -6,4 +6,5 @@ document.getElementById("tzabaris").innerHTML 		 		 =  tzabaris;
 document.getElementById("makris").innerHTML 				 =  makris; 
 document.getElementById("mpagios").innerHTML 		 		 =  mpagios; 
 document.getElementById("papaeleftheriou").innerHTML 		 =  papaeleftheriou; 
+document.getElementById("panagopoulos").innerHTML 		 	 =  panagopoulos; 
 
